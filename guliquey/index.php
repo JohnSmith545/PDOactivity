@@ -9,7 +9,7 @@
 
     <?php 
 
-    // 3
+    // // 3
     // // Store query into variable
 	// $query = "SELECT * FROM users";
 
@@ -39,7 +39,7 @@
 	// }
 
 
-	// 5
+    // // 5
     // // Store query into variable
 	// $query = "INSERT INTO users (id, first_name, 
 	// 	last_name, email, password_hash, role_id) 
@@ -64,7 +64,7 @@
 
 
 
-	// 6
+    // // 6
     // // Store query into variable
 	// $query = "DELETE FROM comments
 	// 		  WHERE user_id = 1
