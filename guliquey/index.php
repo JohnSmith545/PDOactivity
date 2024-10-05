@@ -8,6 +8,81 @@
     <body>
 
     <?php 
+
+    // 3
+    // // Store query into variable
+	// $query = "SELECT * FROM users";
+
+    // // Prepare
+	// $stmt = $pdo->prepare($query);
+
+    // // Execute
+	// if ($stmt->execute()) {
+	// 	echo "<pre>";
+	// 	print_r($stmt->fetchall());
+	// 	echo "<pre>";
+	// }
+
+
+	// 4
+    // // Store query into variable
+	// $query = "SELECT * FROM users";
+
+    // // Prepare
+	// $stmt = $pdo->prepare($query);
+
+    // // Execute
+	// if ($stmt->execute()) {
+	// 	echo "<pre>";
+	// 	print_r($stmt->fetch());
+	// 	echo "<pre>";
+	// }
+
+
+	// 5
+    // // Store query into variable
+	// $query = "INSERT INTO users (id, first_name, 
+	// 	last_name, email, password_hash, role_id) 
+	// 	VALUES (?,?,?,?,?,?)";
+
+    // // Prepare
+	// $stmt = $pdo->prepare($query);
+
+    // // Execute with data parameter
+	// $executeQuery = $stmt->execute(
+	// 	[11,"Juch","Guliquey","juch.guliquey@student.edu", "hashed_password777", 1]
+	// );
+
+    // // Verification
+	// if ($executeQuery) {
+	// 	echo "Query successful!";
+	// }
+	// else {
+	// 	echo "Query failed";
+	// }
+
+
+
+
+	// 6
+    // // Store query into variable
+	// $query = "DELETE FROM comments
+	// 		  WHERE user_id = 1
+	// 		  ";
+
+    // // Prepare
+	// $stmt = $pdo->prepare($query);
+
+    // // Execute
+	// $executeQuery = $stmt->execute();
+
+    // // Verification
+	// if ($executeQuery) {
+	// 	echo "Deletion Successful!";
+	// }
+	// else {
+	// 	echo "Deletion Failed";
+	// }
     
     // // 7
     // // Store query into variable
